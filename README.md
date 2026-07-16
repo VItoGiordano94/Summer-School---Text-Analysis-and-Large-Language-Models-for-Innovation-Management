@@ -25,10 +25,6 @@ Through these materials, participants will be able to:
 7. recognise the limitations, risks, and potential biases of computational text-analysis methods;
 8. apply the acquired knowledge to an individual or collaborative research project.
 
-## Intended Audience
-
-The repository is primarily intended for participants in the Summer School, including PhD students, researchers, and scholars working in innovation management, strategic management, organisation studies, entrepreneurship, business, and related fields. However, the materials may also be useful to anyone interested in learning how text analysis and Large Language Models can be applied rigorously to management and social-science research.
-
 ## About the Summer School
 
 The **Text Analysis and Large Language Models for Innovation Management Summer School** combines methodological lectures, interactive discussions, practical sessions, expert presentations, and collaborative project work. Its broader goal is to provide participants with a practical toolbox for analysing textual data while developing the critical awareness required to use NLP and LLM-based methods in a transparent, reliable, and theoretically meaningful way.

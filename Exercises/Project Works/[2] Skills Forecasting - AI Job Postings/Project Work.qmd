@@ -1,0 +1,150 @@
+---
+title: "Project Work"
+format: html
+editor: visual
+---
+
+## Project Work
+
+This notebook presents the project work developed as part of the course **"Text Analysis and Large Language Models for Innovation Management"**, held on **September 1/2/3/4** in Pisa. The course was carried out by **Vito Giordano**, **Filippo Chiarello**, and **Ivan Zupic**.
+
+The objective of this notebook is to provide guidelines in the application of **Natural Language Processing (NLP)** techniques to explore innovation-related topics, as introduced and practiced during the course. It includes the different **assignments and exercises** covered throughout the **hands-on sessions**.
+
+By applying the methods discussed in class to a real-world case study, this work aims to demonstrate how textual data can be used to extract insights relevant to **innovation management** and decision-making.
+
+## Case Study: Job Postings in AI
+
+In the context of the **evolving job market**, **Artificial Intelligence (AI)** is rapidly reshaping how businesses operate and redefining the skills required across various professions. From automated processes to the ability to analyze massive volumes of data in real time, AI is already transforming multiple industries, creating new opportunities while also introducing significant challenges for both workers and organizations. In such a dynamic landscape, it becomes essential to understand **how AI is influencing the labor market** and how job roles are likely to evolve as these technologies become more pervasive.
+
+A key source of insight into this transformation comes from analyzing the ways in which AI technologies are being adopted across different sectors and professions. Through the use of advanced data analysis techniques and predictive models, it is possible to identify the areas most impacted by AI, understand the **emerging skill requirements**, and assess how workers can prepare for these shifts. This analysis helps uncover not only which tasks are most susceptible to automation but also which new roles and opportunities may arise as a result.
+
+The hands-on component of this project is organized into **five assignments**, each focusing on a specific aspect of text analysis applied to the topic of **job postings in the field of AI**:
+
+-   **Assignment 1**: *Text Pre-processing of* *Job Postings in the AI field*
+
+-   **Assignment 2**: *Topic Modeling on Job Postings*
+
+-   **Assignment 3**: *Sentiment Analysis on Job Postings*
+
+-   **Assignment 4**: *Extracting Skills in Job Postings*
+
+-   **Assignment 5**: *Mining* *Insights from Textual Data*
+
+## **Assignment 1**: *Text Pre-processing of* *Job Postings in the AI field*
+
+The dataset was downloaded directly from Kaggle at the following link:
+
+<https://www.kaggle.com/datasets/arshkon/linkedin-job-postings>
+
+The dataset contains job postings related to the Artificial Intelligence area published on LinkedIn during 2023 and 2024.
+
+The resulting dataset is stored in a **CSV file** and includes:
+
+-   The **title**, and **description** of each job posting;
+
+-   **Metadata**, such as job ID, and name of the company.
+
+The main goal of this assignment is to **explore and analyze the textual content** of job postings on AI related jobs, focusing specifically on Part-of-Speech (PoS) tagging and word count.
+
+To conduct this analysis, you will apply a selection of Natural Language Processing (NLP) techniques introduced in the previous course modules. The workflow includes: (1) Text Preprocessing (Tokenization, PoS tagging, Stopword removal, Lemmatization or Stemming); and (2) Basic text analysis through word frequency counts and PoS distribution.
+
+This assignment serves as a preliminary exploration of the dataset, aiming to provide initial insights into the structure and linguistic patterns of the job postings content. It is intended as a first step before moving on to more advanced analyses in subsequent assignments.
+
+```{r}
+library(tidyverse)
+
+# Import Scientific Articles
+job_postings <- read_csv("data/postings_AI.csv")
+
+# Have a glimpse in the dataset
+glimpse(job_postings)
+
+# Main Variables
+job_poatings %>% 
+  select(job_ID, company_name, title, description) %>% 
+  head(5)
+```
+
+*!!! Now it's your turn:*
+
+**Assignment 1** ¡V Perform a word count to identify the most frequent terms, then apply PoS tagging to extract the most common bigrams and nouns, gaining an initial overview of the AI-related job postings.
+
+```{r}
+
+```
+
+## **Assignment 2**: *Topic Modeling on Job Postings*
+
+Building on the insights gained from **Assignment 1**, the focus of this task shifts from basic text preprocessing to deeper analysis through **topic modeling**.
+
+The goal of this assignment is to uncover the **main themes emerging** in the job market with the advent of Artificial Intelligence. By applying topic modeling techniques to AI-related job postings, you will identify which **abilities, tools, and areas of expertise are most frequently requested** by employers, providing a data-driven view of how professional profiles are evolving in response to AI.
+
+Use the cleaned and preprocessed data from Assignment 1 to: (1) Apply topic modeling to extract key topics from AI-related job descriptions; (2) Identify and visualize the most representative terms for each topic; and (3) Interpret and label each topic in terms of skills, roles, or areas of expertise.
+
+*!!! Now it's your turn:*
+
+Assignment 2 ¡V Based on the processed reviews from Assignment 1, apply topic modeling to uncover the main themes in AI-related job postings and interpret the results.
+
+```{r}
+
+```
+
+## **Assignment 3**: *Sentiment Analysis on Job Postings*
+
+After exploring linguistic patterns and key topics in AI-related job descriptions, this assignment focuses on analyzing the **emotional tone** of the job market through **sentence-level sentiment analysis**.
+
+The goal is to assess how polarized the language used in job postings is by measuring the distribution of **positive, negative, and neutral sentiments**. This helps us understand how AI roles are framed, detect particularly enthusiastic or cautious tones, and identify whether certain job types or sectors convey more optimistic or reserved messaging.
+
+In this assignment, you will: (1) **Apply sentiment analysis** techniques to classify each sentence as positive, negative, or neutral; (2) **Analyze the overall sentiment** distribution to evaluate how the AI job market is presented; (3) **Identify and examine the most positively and negatively framed sentences** in the job postingsto understand the narratives behind extreme sentiments.
+
+*!!! Now it's your turn:*
+
+**Assignment 3** ¡V Apply sentiment analysis to the job posting sentences to assess their polarity, and identify the most positive and most negative sentences.
+
+```{r}
+
+```
+
+## **Assignment 4**: *Extracting Skills in Job Postings*
+
+In this assignment, we shift from general text analysis to a more focused extraction task aimed at identifying **key skills** **mentioned in AI-related job postings**.
+
+The goal is to extract and analyze the main technical elements discussed in job descriptions by applying a **Named Entity Recognition (NER)** approach using a gazetteer specific to AI skills and competencies. This will help us understand which skills are most in demand and highlight the core capabilities shaping the AI job market.
+
+To simplify the NER task, we will use a **gazetteer-based approach**, relying on a list of skills. Moreover, use the following definition of skill:
+
+Skill
+
+:   The ability to apply knowledge and use know-how to complete tasks and solve problems.
+
+Follow these steps: **(1) Prepare a Gazetteer**: create a list of relevant AI-related skills that you expect to find in the texts; **(2) Apply Gazetteer-based NER**: Use the gazetteer to identify and extract mentions of these skills from the job postings; **(3) Analyze the Results**: Count how often each item appears and identify the most frequently mentioned skills. Provide a summary table or visualization of frequency data.
+
+*Now it's your turn:*
+
+**Assignment 4** ¡V Create a gazetteer of AI-related skills, extract them from job postings using Named Entity Recognition, and analyze which ones occur most frequently.
+
+```{r}
+
+```
+
+## **Assignment 5**: *Mining* *Insights from Textual Data*
+
+After exploring the technologies and skills mentioned in AI-related job postings, we now aim to gain deeper insights by addressing **key research questions** about labor market trends, based on the analyses previously performed.
+
+The goal of this assignment is to **select one** of the following research questions and use the techniques learned¡Xsuch as text preprocessing, topic modeling, sentiment analysis, and entity extraction¡Xto provide a data-driven answer. You are only expected to **design a clear plan** outlining how you would approach the analysis, and only **try to implement it [if you have time]{.underline}**.
+
+1.  Which technical skills and tools are most frequently required in AI-related job postings?
+
+2.  How do companies describe the ideal candidate profile for AI roles, beyond just technical skills?
+
+3.  What types of job roles and responsibilities are most commonly associated with AI across sectors?
+
+Think about the tools and methods introduced during the course to: **(1) Analyze the job postings** with respect to your chosen question; **(2) Extract relevant insights** supported by both quantitative and qualitative evidence; **(3) Summarize your findings** with clear interpretations and visualizations that highlight the main takeaways.
+
+*!!! Now it's your turn:*
+
+**Assignment 5 ¡V** Choose [one]{.underline} research question related to smartphone user reviews, and **design a clear plan** outlining how you would approach the analysis.
+
+```{r}
+
+```

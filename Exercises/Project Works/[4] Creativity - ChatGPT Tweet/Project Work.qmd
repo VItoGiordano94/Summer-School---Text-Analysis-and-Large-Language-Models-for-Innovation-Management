@@ -1,0 +1,138 @@
+---
+title: "Project Work"
+format: html
+editor: visual
+---
+
+## Project Work
+
+This notebook presents the project work developed as part of the course **"Text Analysis and Large Language Models for Innovation Management"**, held on **September 1/2/3/4** in Pisa. The course was carried out by **Vito Giordano**, **Filippo Chiarello**, and **Ivan Zupic**.
+
+The objective of this notebook is to provide guidelines in the application of **Natural Language Processing (NLP)** techniques to explore innovation-related topics, as introduced and practiced during the course. It includes the different **assignments and exercises** covered throughout the **hands-on sessions**.
+
+By applying the methods discussed in class to a real-world case study, this work aims to demonstrate how textual data can be used to extract insights relevant to **innovation management** and decision-making.
+
+## Case Study: ChatGPT Tweets on Creativity
+
+In recent years, the concept of human **creativity** has been progressively redefined in light of new digital technologies and artificial intelligence (AI). Innovative tools like ChatGPT, developed by OpenAI, represent an emerging frontier in human-machine interaction. ChatGPT is an advanced natural language processing (NLP) model capable of autonomously generating text, answering questions, and assisting with various creative tasks. The introduction of this technology has sparked a debate on how AI can influence, support, and even amplify human creativity.
+
+This project aims to analyze **tweets** on Twitter discussing ChatGPT to understand users¡¦ reactions to a crucial question: Can ChatGPT truly enhance human creativity? Through collecting and analyzing these tweets, the objective is to understand **if and how users perceive ChatGPT** as a tool that can enrich creative processes, contributing to idea generation, problem-solving, or content creation in artistic, literary, and professional fields.
+
+The hands-on component of this project is organized into **five assignments**, each focusing on a specific aspect of text analysis applied to the topic of **ChatGPT tweets on creativity**:
+
+-   **Assignment 1**: *Text Pre-processing of* *ChatGPT tweets on creativity*
+
+-   ***A*****ssignment 2**: *Topic Modeling on ChatGPT tweets*
+
+-   **Assignment 3**: *Sentiment Analysis on ChatGPT tweets*
+
+-   **Assignment 4**: *Extracting Creative Tasks in ChatGPT tweets*
+
+-   **Assignment 5**: *Mining* *Insights from Textual Data*
+
+## **Assignment 1**: *Text Pre-processing of* *ChatGPT tweets on creativity*
+
+The dataset contains a total of 3,821,843 tweets collected via the Twitter API, with the aim of analyzing discussions and opinions about ChatGPT. The data were extracted using a series of targeted keywords:
+
+`"chat-gpt", "chat gpt", "chatgpt", "#chatgpt", and "#gpt3"`
+
+The resulting dataset is stored in a **CSV file** and includes the **text** and **tweet id** of each tweet.
+
+The main goal of this assignment is to **explore and analyze the textual content** of tweets, focusing specifically on Part-of-Speech (PoS) tagging and word count.
+
+To conduct this analysis, you will apply a selection of Natural Language Processing (NLP) techniques introduced in the previous course modules. The workflow includes: (1) Text Preprocessing (Tokenization, PoS tagging, Stopword removal, Lemmatization or Stemming); and (2) Basic text analysis through word frequency counts and PoS distribution.
+
+This assignment serves as a preliminary exploration of the dataset, aiming to provide initial insights into the structure and linguistic patterns of the job postings content. It is intended as a first step before moving on to more advanced analyses in subsequent assignments.
+
+```{r}
+library(tidyverse)
+
+# Import Scientific Articles
+chatgpt_tweets <- read_csv("data/ChatGPT Tweets and Creativity (1).csv")
+
+# Have a glimpse in the dataset
+glimpse(chatgpt_tweets)
+
+# Main Variables
+chatgpt_tweets %>% 
+  select(tweet_id, text) %>% 
+  head(5)
+```
+
+*!!! Now it's your turn:*
+
+**Assignment 1** ¡V Perform a word count to identify the most frequent terms, then apply PoS tagging to extract the most common bigrams and nouns, gaining an initial overview of the ChatGPT tweets.
+
+```{r}
+
+```
+
+## *A***ssignment 2**: *Topic Modeling on ChatGPT tweets*
+
+Building on the insights gained from Assignment 1, this task moves from basic text preprocessing to deeper thematic exploration through **topic modeling**.
+
+The goal of this assignment is to uncover the **main themes and discussions around creativity** as reflected in tweets about ChatGPT. By applying topic modeling techniques to the ChatGPT tweet dataset, you will identify the **key ideas, and perspectives** users express regarding ChatGPT¡¦s role in enhancing or influencing human creativity.
+
+Use the cleaned and preprocessed data from Assignment 1 to: **(1) Apply topic modeling** to extract dominant themes from the ChatGPT tweets; **(2) Identify and visualize** the most representative terms for each theme; and **(3) Interpret and label** each theme in terms of creativity-related concepts, user perceptions, or emerging trends.
+
+*!!! Now it's your turn:*
+
+**Assignment 2** ¡V Based on the processed tweet data from Assignment 1, apply topic modeling to uncover the main themes in ChatGPT-related discussions on creativity and interpret the results.
+
+```{r}
+
+```
+
+## Assignment 3: Sentiment Analysis on ChatGPT tweets
+
+After exploring linguistic patterns and key topics in tweets about ChatGPT and creativity, this assignment focuses on analyzing the **emotional tone** of user discussions through **tweet-level sentiment analysis**.
+
+The goal is to assess how positively or negatively ChatGPT¡¦s impact on creativity is framed in tweets by measuring the **distribution of sentiment** across the dataset. This allows us to understand the overall tone of public opinion, detect areas of enthusiasm or skepticism, and identify whether certain creative applications of ChatGPT are discussed more optimistically or with caution.
+
+In this assignment, you will: **(1) Apply sentiment analysis techniques** to classify each tweet as positive, negative, or neutral; **(2) Analyze the overall sentiment** distribution to evaluate how ChatGPT¡¦s role in creativity is portrayed; **(3) Identify and examine the most positively and negatively framed tweets** to understand the narratives behind extreme sentiments.
+
+*!!! Now it's your turn:*
+
+**Assignment 3** ¡V Apply sentiment analysis to tweets from ChatGPT-related tweets on creativity to assess their polarity, and identify the most positive and most negative tweets.
+
+```{r}
+
+```
+
+## **Assignment 4**: *Extracting Creative Tasks in ChatGPT tweets*
+
+In this assignment, we shift from general text analysis to a more focused extraction task aimed at identifying **key creative tasks** mentioned in tweets about ChatGPT.
+
+The goal is to extract and analyze the main tasks discussed in tweets by applying a **Named Entity Recognition (NER)** approach using a **gazetteer** specific to creative tasks related to ChatGPT. This will help us understand which creative activities and uses are most commonly associated with ChatGPT, highlighting how users perceive its role in enhancing creativity.
+
+Follow these steps: **(1) Prepare a Gazetteer**: create a list of relevant creative tasks you expect to find in the tweets; **(2) Apply Gazetteer-based NER**: use the gazetteer to identify and extract mentions of these tasks from the tweets; **(3) Analyze the Results**: count how often each task appears and identify the most frequently mentioned ones. Provide a summary table or visualization of task frequencies.
+
+*!!! Now it¡¦s your turn:*
+
+**Assignment 4** ¡V Create a gazetteer of creative tasks, extract them from ChatGPT-related tweets using Named Entity Recognition, and analyze which tasks occur most frequently.
+
+```{r}
+
+```
+
+## **Assignment 5**: *Mining* *Insights from Textual Data*
+
+After exploring the key themes and sentiment patterns in tweets about ChatGPT and creativity, we now aim to gain deeper insights by addressing **key research questions** about how users perceive and discuss ChatGPT¡¦s creative potential, based on the analyses previously performed.
+
+The goal of this assignment is to **select one** of the following research questions and use the techniques learned¡Xsuch as text preprocessing, topic modeling, sentiment analysis, and entity extraction¡Xto provide a data-driven answer. You are only expected to **design a clear plan** outlining how you would approach the analysis, and only **try to implement it [if you have time]{.underline}**.
+
+1.  How is the synergy between AI and human creativity perceived? Is ChatGPT seen as a collaborator or merely as an executor?
+
+2.  In what ways do users perceive ChatGPT as a tool that can support or enhance human creativity?
+
+3.  Are there specific categories of users who react particularly positively or negatively to the impact ChatGPT has on human creativity?
+
+Think about the tools and methods introduced during the course to: **(1) Analyze the tweet dataset** with respect to your chosen question; **(2) Extract relevant insights** supported by both quantitative and qualitative evidence; **(3) Summarize your findings** with clear interpretations and visualizations that highlight the main takeaways.
+
+*!!! Now it¡¦s your turn:*
+
+**Assignment 5** ¡V Choose [one]{.underline} research question related to smartphone user reviews, and **design a clear plan** outlining how you would approach the analysis.
+
+```{r}
+
+```

@@ -28,3 +28,7 @@ Through these materials, participants will be able to:
 ## About the Summer School
 
 The **Text Analysis and Large Language Models for Innovation Management Summer School** combines methodological lectures, interactive discussions, practical sessions, expert presentations, and collaborative project work. Its broader goal is to provide participants with a practical toolbox for analysing textual data while developing the critical awareness required to use NLP and LLM-based methods in a transparent, reliable, and theoretically meaningful way.
+
+## Agenda
+
+<img width="2500" height="2698" alt="image" src="https://github.com/user-attachments/assets/b7924590-b4ac-4f61-a269-ce07ebbc09b6" />

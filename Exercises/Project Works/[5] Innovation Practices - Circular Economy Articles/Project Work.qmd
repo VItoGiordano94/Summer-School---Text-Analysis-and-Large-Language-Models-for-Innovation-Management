@@ -87,7 +87,23 @@ Use the cleaned and preprocessed data from Assignment 1 to: **(1) Apply topic mo
 
 ```
 
-## **Assignment 3**: *Sentiment Analysis on Circular Economy Papers*
+## **Assignment 3: *Semantic Similarity of Circular Economy Papers***
+
+After exploring the main topics discussed in circular economy papers, this assignment focuses on analyzing the **semantic similarity** between research articles.
+
+The goal is to identify papers that describe **similar research topics, innovation practices, or sustainability strategies** by measuring the similarity of their sentence embeddings using cosine similarity. This helps us discover **related research contributions, recurring innovation approaches, and common sustainability themes**, even when authors use different terminology to describe the same concepts.
+
+In this assignment you will: (1) Generate sentence embeddings for the paper texts; (2) Compute the semantic similarity between papers using cosine similarity; (3) Identify the pairs of papers with the highest semantic similarity; (4) Examine whether the most similar papers describe the same research topic, innovation practice, or sustainability strategy.
+
+*!!! Now it's your turn:*
+
+**Assignment 3** ¡V Apply semantic similarity to the circular economy papers, identify the most semantically similar paper pairs, and discuss whether they describe the same research topic, innovation practice, or sustainability strategy.
+
+```{r}
+
+```
+
+## **Assignment 4**: *Sentiment Analysis on Circular Economy Papers*
 
 After exploring linguistic patterns and key topics in circular economy research papers, this assignment focuses on analyzing the **emotional tone** of innovation narratives through **sentence-level sentiment analysis**.
 
@@ -97,13 +113,13 @@ In this assignment, you will: **(1) Apply sentiment analysis** techniques to cla
 
 *!!! Now it¡¦s your turn:*
 
-**Assignment 3** ¡V Apply sentiment analysis to the sentences from circular economy research papers to assess their polarity, and identify the most positive and most negative sentences.
+**Assignment 4** ¡V Apply sentiment analysis to the sentences from circular economy research papers to assess their polarity, and identify the most positive and most negative sentences.
 
 ```{r}
 
 ```
 
-## **Assignment 4**: *Extracting Innovation Practices in Circular Economy Papers*
+## **Assignment 5**: *Extracting Innovation Practices in Circular Economy Papers*
 
 In this assignment, we shift from general text analysis to a more focused extraction task aimed at identifying **key innovation practices mentioned** in circular economy research papers.
 
@@ -115,13 +131,13 @@ Follow these steps: (1) **Prepare a Gazetteer** ¡V Create a list of innovation p
 
 *!!! Now it¡¦s your turn:*
 
-**Assignment 4** ¡V Create a gazetteer of innovation practices in the circular economy, extract them from research articles using Named Entity Recognition, and analyze which ones occur most frequently.
+**Assignment 5** ¡V Create a gazetteer of innovation practices in the circular economy, extract them from research articles using Named Entity Recognition, and analyze which ones occur most frequently.
 
 ```{r}
 
 ```
 
-## **Assignment 5**: *Mining* *Insights from Textual Data*
+## **Assignment 6**: *Mining* *Insights from Textual Data*
 
 After exploring the key themes and innovation practices emerging from circular economy research, we now aim to gain deeper insights by addressing **key research questions** about how innovation is framed and discussed in this field, based on the analyses previously performed.
 
@@ -135,7 +151,7 @@ Think about the tools and methods introduced during the course to: **(1) Analyze
 
 *!!! Now it¡¦s your turn:*
 
-**Assignment 5** ¡V Choose [one]{.underline} research question related to smartphone user reviews, and **design a clear plan** outlining how you would approach the analysis.
+**Assignment 6** ¡V Choose [one]{.underline} research question related to smartphone user reviews, and **design a clear plan** outlining how you would approach the analysis.
 
 ```{r}
 

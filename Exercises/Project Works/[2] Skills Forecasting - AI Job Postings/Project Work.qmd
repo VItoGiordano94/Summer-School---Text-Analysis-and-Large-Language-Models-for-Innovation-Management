@@ -89,7 +89,23 @@ Assignment 2 ¡V Based on the processed reviews from Assignment 1, apply topic mo
 
 ```
 
-## **Assignment 3**: *Sentiment Analysis on Job Postings*
+## **Assignment 3**: *Semantic Similarity of Job Postings*
+
+After exploring the main topics discussed in job postings, this assignment focuses on analyzing the **semantic similarity** between job descriptions.
+
+The goal is to identify job postings that describe **similar roles, responsibilities, or skill requirements** by measuring the similarity of their sentence embeddings using cosine similarity. This helps us discover **recurring job profiles, common competency requirements, and similar hiring needs**, even when employers use different vocabulary to describe the same concepts.
+
+In this assignment you will: (1) Generate sentence embeddings for the job descriptions; (2) Compute the semantic similarity between job postings using cosine similarity; (3) Identify the pairs of job postings with the highest semantic similarity; (4) Examine whether the most similar job postings describe the same role, responsibilities, or required skills.
+
+*!!! Now it's your turn:*
+
+**Assignment 3** ¡V Apply semantic similarity to the job postings, identify the most semantically similar job posting pairs, and discuss whether they describe the same job role, responsibilities, or skill requirements.
+
+```{r}
+
+```
+
+## **Assignment 4**: *Sentiment Analysis on Job Postings*
 
 After exploring linguistic patterns and key topics in AI-related job descriptions, this assignment focuses on analyzing the **emotional tone** of the job market through **sentence-level sentiment analysis**.
 
@@ -99,13 +115,13 @@ In this assignment, you will: (1) **Apply sentiment analysis** techniques to cla
 
 *!!! Now it's your turn:*
 
-**Assignment 3** ¡V Apply sentiment analysis to the job posting sentences to assess their polarity, and identify the most positive and most negative sentences.
+**Assignment 4** ¡V Apply sentiment analysis to the job posting sentences to assess their polarity, and identify the most positive and most negative sentences.
 
 ```{r}
 
 ```
 
-## **Assignment 4**: *Extracting Skills in Job Postings*
+## **Assignment 5**: *Extracting Skills in Job Postings*
 
 In this assignment, we shift from general text analysis to a more focused extraction task aimed at identifying **key skills** **mentioned in AI-related job postings**.
 
@@ -121,13 +137,13 @@ Follow these steps: **(1) Prepare a Gazetteer**: create a list of relevant AI-re
 
 *Now it's your turn:*
 
-**Assignment 4** ¡V Create a gazetteer of AI-related skills, extract them from job postings using Named Entity Recognition, and analyze which ones occur most frequently.
+**Assignment 5** ¡V Create a gazetteer of AI-related skills, extract them from job postings using Named Entity Recognition, and analyze which ones occur most frequently.
 
 ```{r}
 
 ```
 
-## **Assignment 5**: *Mining* *Insights from Textual Data*
+## **Assignment 6**: *Mining* *Insights from Textual Data*
 
 After exploring the technologies and skills mentioned in AI-related job postings, we now aim to gain deeper insights by addressing **key research questions** about labor market trends, based on the analyses previously performed.
 
@@ -143,7 +159,7 @@ Think about the tools and methods introduced during the course to: **(1) Analyze
 
 *!!! Now it's your turn:*
 
-**Assignment 5 ¡V** Choose [one]{.underline} research question related to smartphone user reviews, and **design a clear plan** outlining how you would approach the analysis.
+**Assignment 6 ¡V** Choose [one]{.underline} research question related to smartphone user reviews, and **design a clear plan** outlining how you would approach the analysis.
 
 ```{r}
 

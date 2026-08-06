@@ -87,7 +87,23 @@ Use the cleaned and preprocessed data from Assignment 1 to: **(1) Apply topic mo
 
 ```
 
-## **Assignment 3**: *Sentiment Analysis on Chatbot Patents*
+## **Assignment 3: Semantic Similarity of Chatbot Patents**
+
+After exploring the main topics discussed in chatbot patents, this assignment focuses on analyzing the **semantic similarity** between patent documents.
+
+The goal is to identify patents that describe **similar technological innovations** by measuring the similarity of their sentence embeddings using cosine similarity. This helps us discover **related technological solutions, recurring innovation areas, and similar invention concepts**, even when patents use different terminology to describe the same ideas.
+
+In this assignment you will: (1) Generate sentence embeddings for the patent texts (e.g., titles and abstracts); (2) Compute the semantic similarity between patents using cosine similarity; (3) Identify the pairs of patents with the highest semantic similarity; (4) Examine whether the most similar patents describe the same technological domain, innovation, or application.
+
+*!!! Now it's your turn:*
+
+**Assignment 3** ¡V Apply semantic similarity to the chatbot patents, identify the most semantically similar patent pairs, and discuss whether they describe the same technological innovation, application domain, or inventive concept.
+
+```{r}
+
+```
+
+## **Assignment 4**: *Sentiment Analysis on Chatbot Patents*
 
 After exploring linguistic patterns and key topics in chatbot-related patents, this assignment focuses on analyzing the **emotional tone** of innovation narratives through **sentence-level sentiment analysis**.
 
@@ -97,13 +113,13 @@ In this assignment, you will: **(1) Apply sentiment analysis techniques** to cla
 
 *!!! Now it's your turn:*
 
-**Assignment 3** ¡V Apply sentiment analysis to the sentences from chatbot-related patents to assess their polarity, and identify the most positive and most negative sentences.
+**Assignment 4** ¡V Apply sentiment analysis to the sentences from chatbot-related patents to assess their polarity, and identify the most positive and most negative sentences.
 
 ```{r}
 
 ```
 
-## **Assignment 4**: *Extracting Technologies in Chatbot Patents*
+## **Assignment 5**: *Extracting Technologies in Chatbot Patents*
 
 In this assignment, we shift from general text analysis to a more focused extraction task aimed at identifying **key technologies mentioned in chatbot-related patents**.
 
@@ -119,13 +135,13 @@ Follow these steps: **(1) Prepare a Gazetteer**: create a list of relevant AI te
 
 *!!! Now it's your turn:*
 
-**Assignment 4** ¡V Create a gazetteer of AI technologies, extract them from chatbot patents using Named Entity Recognition, and analyze which ones occur most frequently.
+**Assignment 5** ¡V Create a gazetteer of AI technologies, extract them from chatbot patents using Named Entity Recognition, and analyze which ones occur most frequently.
 
 ```{r}
 
 ```
 
-## **Assignment 5**: *Mining* *Insights from Textual Data*
+## **Assignment 6**: *Mining* *Insights from Textual Data*
 
 After exploring the technologies and innovation patterns found in chatbot-related patents, we now aim to gain deeper insights by addressing **key research questions** about the evolution of this technological field, based on the analyses previously performed.
 
@@ -139,7 +155,7 @@ Think about the tools and methods introduced during the course to: (1) Analyze t
 
 *!!! Now it's your turn:*
 
-**Assignment 5** ¡V Choose [one]{.underline} research question related to smartphone user reviews, and **design a clear plan** outlining how you would approach the analysis.
+**Assignment 6** ¡V Choose [one]{.underline} research question related to smartphone user reviews, and **design a clear plan** outlining how you would approach the analysis.
 
 ```{r}
 

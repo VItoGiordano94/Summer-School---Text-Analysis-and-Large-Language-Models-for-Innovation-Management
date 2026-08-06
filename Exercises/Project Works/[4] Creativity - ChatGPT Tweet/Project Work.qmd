@@ -83,7 +83,23 @@ Use the cleaned and preprocessed data from Assignment 1 to: **(1) Apply topic mo
 
 ```
 
-## Assignment 3: Sentiment Analysis on ChatGPT tweets
+## **Assignment 3: *Semantic Similarity of ChatGPT Tweets***
+
+After exploring the main topics discussed in ChatGPT tweets on creativity, this assignment focuses on analyzing the **semantic similarity** between tweets.
+
+The goal is to identify tweets that express **similar opinions, experiences, or perspectives** by measuring the similarity of their sentence embeddings using cosine similarity. This helps us discover **recurring views on ChatGPT's role in creativity, common creative applications, and shared user perceptions**, even when different vocabulary is used to express the same ideas.
+
+In this assignment, you will: (1) Generate sentence embeddings for the tweet texts; (2) Compute the semantic similarity between tweets using cosine similarity; (3) Identify the pairs of tweets with the highest semantic similarity; (4) Examine whether the most similar tweets describe the same creative applications, user perceptions, or opinions about ChatGPT.
+
+*!!! Now it's your turn:*
+
+**Assignment 3** ¡V Apply semantic similarity to the ChatGPT tweets on creativity, identify the most semantically similar tweet pairs, and discuss whether they describe the same creative application, user perception, or opinion about ChatGPT
+
+```{r}
+
+```
+
+## Assignment 4: *Sentiment Analysis on ChatGPT tweets*
 
 After exploring linguistic patterns and key topics in tweets about ChatGPT and creativity, this assignment focuses on analyzing the **emotional tone** of user discussions through **tweet-level sentiment analysis**.
 
@@ -93,13 +109,13 @@ In this assignment, you will: **(1) Apply sentiment analysis techniques** to cla
 
 *!!! Now it's your turn:*
 
-**Assignment 3** ¡V Apply sentiment analysis to tweets from ChatGPT-related tweets on creativity to assess their polarity, and identify the most positive and most negative tweets.
+**Assignment 4** ¡V Apply sentiment analysis to tweets from ChatGPT-related tweets on creativity to assess their polarity, and identify the most positive and most negative tweets.
 
 ```{r}
 
 ```
 
-## **Assignment 4**: *Extracting Creative Tasks in ChatGPT tweets*
+## **Assignment 5**: *Extracting Creative Tasks in ChatGPT tweets*
 
 In this assignment, we shift from general text analysis to a more focused extraction task aimed at identifying **key creative tasks** mentioned in tweets about ChatGPT.
 
@@ -109,13 +125,13 @@ Follow these steps: **(1) Prepare a Gazetteer**: create a list of relevant creat
 
 *!!! Now it¡¦s your turn:*
 
-**Assignment 4** ¡V Create a gazetteer of creative tasks, extract them from ChatGPT-related tweets using Named Entity Recognition, and analyze which tasks occur most frequently.
+**Assignment 5** ¡V Create a gazetteer of creative tasks, extract them from ChatGPT-related tweets using Named Entity Recognition, and analyze which tasks occur most frequently.
 
 ```{r}
 
 ```
 
-## **Assignment 5**: *Mining* *Insights from Textual Data*
+## **Assignment 6**: *Mining* *Insights from Textual Data*
 
 After exploring the key themes and sentiment patterns in tweets about ChatGPT and creativity, we now aim to gain deeper insights by addressing **key research questions** about how users perceive and discuss ChatGPT¡¦s creative potential, based on the analyses previously performed.
 
@@ -131,7 +147,7 @@ Think about the tools and methods introduced during the course to: **(1) Analyze
 
 *!!! Now it¡¦s your turn:*
 
-**Assignment 5** ¡V Choose [one]{.underline} research question related to smartphone user reviews, and **design a clear plan** outlining how you would approach the analysis.
+**Assignment 6** ¡V Choose [one]{.underline} research question related to smartphone user reviews, and **design a clear plan** outlining how you would approach the analysis.
 
 ```{r}
 

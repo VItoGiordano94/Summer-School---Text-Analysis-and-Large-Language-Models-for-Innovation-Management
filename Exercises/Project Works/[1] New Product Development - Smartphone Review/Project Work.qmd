@@ -89,9 +89,25 @@ Use the cleaned and preprocessed data from Assignment 1 to: (1) Apply topic mode
 
 ```
 
-## **Assignment 3**: *Sentiment Analysis on User-reviews*
+## **Assignment 3**: *Semantic Similarity of Smartphone User Reviews*
 
-ndefinedAfter exploring linguistic patterns and key topics in user reviews, this assignment focuses on analyzing the **emotional tone** of the feedback through a **review-level** **sentiment analysis**.
+After exploring the main topics discussed in smartphone reviews, this assignment focuses on analyzing the **semantic similarity** between reviews.
+
+The goal is to identify reviews that describe similar experiences by measuring the similarity of their sentence embeddings using **cosine similarity**. This helps us discover **recurring user needs, product features, and issues**, even when reviewers use different vocabulary to express the same concept.
+
+In this assignment you will: (1) Generate sentence embeddings for the review texts; (2) Compute the semantic similarity between reviews using cosine similarity; (3) Identify the pairs of reviews with the highest semantic similarity; (4) Examine whether the most similar reviews describe the same smartphone feature, issue, or user need.
+
+*!!! Now it's your turn:*
+
+**Assignment 3** ¡V Apply semantic similarity to the smartphone user reviews, identify the most semantically similar review pairs, and discuss whether they describe the same customer need, product feature, or user experience.
+
+```{r}
+
+```
+
+## **Assignment 4**: *Sentiment Analysis on User-reviews*
+
+After exploring linguistic patterns and key topics in user reviews, this assignment focuses on analyzing the **emotional tone** of the feedback through a **review-level** **sentiment analysis**.
 
 The goal is to assess **how polarized the reviews are** by measuring the distribution of **positive, negative, and neutral sentiments**. This helps us understand the overall satisfaction of users, detect strong emotional responses, and identify which products or features tend to trigger particularly positive or negative opinions.
 
@@ -99,13 +115,13 @@ In this assignment, you will: (1) Apply sentiment analysis techniques to classif
 
 *!!! Now it's your turn:*
 
-**Assignment 3** ¡V Apply sentiment analysis to the user reviews to assess their polarity, and identify the most positive and most negative entries for deeper insight into consumer reactions.
+**Assignment 4** ¡V Apply sentiment analysis to the user reviews to assess their polarity, and identify the most positive and most negative entries for deeper insight into consumer reactions.
 
 ```{r}
 
 ```
 
-## **Assignment 4**: *Extracting Smarphone Components in User-reviews*
+## **Assignment 5**: *Extracting Smarphone Components in User-reviews*
 
 In this assignment, we shift from general text analysis to a more focused **extraction task** aimed at identifying **key smartphone components** mentioned in user reviews.
 
@@ -115,13 +131,13 @@ Follow these steps: (1) **Prepare a Gazetteer**: create a list of relevant smart
 
 *Now it's your turn:*
 
-Assignment 4 ¡V Create a **gazetteer of smartphone components**, extract them from user reviews using Named Entity Recognition, and analyze which components occur most frequently.
+**Assignment 5** ¡V Create a **gazetteer of smartphone components**, extract them from user reviews using Named Entity Recognition, and analyze which components occur most frequently.
 
 ```{r}
 
 ```
 
-## **Assignment 5**: *Mining* *Insights from Textual Data*
+## **Assignment 6**: *Mining* *Insights from Textual Data*
 
 After exploring smartphone components mentioned in user reviews, we now aim to gain deeper insights by addressing key research questions about **user preferences and needs** based on the analyses previously performed.
 
@@ -137,7 +153,7 @@ Think about the tools and methods introduced during the course to: (1) **Analyze
 
 *!!! Now it's your turn:*
 
-**Assignment 5** ¡V Choose [one]{.underline} research question related to smartphone user reviews, and **design a clear plan** outlining how you would approach the analysis.
+**Assignment 6** ¡V Choose [one]{.underline} research question related to smartphone user reviews, and **design a clear plan** outlining how you would approach the analysis.
 
 ```{r}
 

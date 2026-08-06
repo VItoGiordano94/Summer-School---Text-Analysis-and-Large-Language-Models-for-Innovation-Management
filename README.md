@@ -1,4 +1,4 @@
-# Text Analysis and Large Language Models for Innovation Management
+# Text Analysis and Large Language Models for Innovation Management 2026
 
 This repository collects the teaching materials, practical exercises, datasets, code notebooks, examples, and additional resources developed for the **Summer School on Text Analysis and Large Language Models for Innovation Management** (https://www.unipi.it/didattica/corsi/summer-schools/text-analysis-large-language-models-for-innovation-management/), organised by the **University of Pisa**.
 

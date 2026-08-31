@@ -67,7 +67,7 @@ smartphone_reviews %>%
 
 *!!! Now it's your turn:*
 
-**Assignment 1** ¡V Perform a word count to identify the most frequent terms, then apply PoS tagging to extract the most common bigrams and nouns, gaining an initial overview of the smartphone user reviews.
+**Assignment 1** ¡V Perform a word count to identify the most frequent terms, then extract the most common bigrams and apply Part-of-Speech (PoS) tagging to identify the most frequent nouns, gaining an initial overview of the smartphone user reviews.
 
 ```{r}
 

@@ -141,7 +141,7 @@ Follow these steps: (1) **Prepare a Gazetteer** ¡V Create a list of innovation 
 
 After exploring the key themes and innovation practices emerging from circular economy research, we now aim to gain deeper insights by addressing **key research questions** about how innovation is framed and discussed in this field, based on the analyses previously performed.
 
-The goal of this assignment is to **select one** of the following research questions and use the techniques learned¡Xsuch as text preprocessing, topic modeling, sentiment analysis, and entity extraction¡Xto provide a data-driven answer. You are only expected to **design a clear plan** outlining how you would approach the analysis, and only **try to implement it [if you have time]{.underline}**.
+The goal of this assignment is to **select one** of the following research questions and use the techniques learned, such as text preprocessing, topic modeling, sentiment analysis, and entity extraction, to provide a data-driven answer. You are only expected to **design a clear plan** outlining how you would approach the analysis, and only **try to implement it [if you have time]{.underline}**.
 
 1.  Which innovation practices are most frequently mentioned in circular economy papers, and how have they evolved over time?
 
